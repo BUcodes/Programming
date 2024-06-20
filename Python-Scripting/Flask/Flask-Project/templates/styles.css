@@ -1,0 +1,64 @@
+body {
+    background-color: #61616142; /* Hunter green */
+    color: #000000f8; /* Off-white text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+h1 {
+    text-indent: 30%;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group select {
+    width: 340px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: calc(100% - 130px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #022e04;
+}
